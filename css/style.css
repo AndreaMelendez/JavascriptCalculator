@@ -1,0 +1,121 @@
+* {
+	box-sizing: border-box;
+	font: bold 14px "Trebuchet MS";
+}
+
+html {
+	height: 100%;
+	background: white;
+  background: url(https://k32.kn3.net/taringa/8/4/F/6/F/0/KonahsFvZ/03E.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#JSCalculator {
+	width: 400px;
+	height: 350px;
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+	background-color: transparent;
+  outline: 4px solid white;
+	box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.top span.clear {
+	float: left;
+}
+
+h2{
+  margin-top: 5%;
+  margin-bottom: -5%;
+  color: white;
+  text-align: center;
+  font-size: 44px;
+ @media (min-width: 992px) {
+     margin:-2% auto 30px auto;
+  }
+}
+
+.footer {
+  width:450px;
+  text-align:center;
+  display:block;
+  margin:-4% auto 30px auto;
+  font-size:20px;
+  color:white;
+  @media (min-width: 992px) {
+     margin:-2% auto 30px auto;
+  }
+}
+
+.top #display {
+	height: 50px;
+	width: 222px;
+	float: right;
+	padding: 0 10px;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 0px 4px #2196F3;
+	font-size: 17px;
+	line-height: 50px;
+	color: black;
+	text-shadow: 1px 1px 1px orange;
+	text-align: right;
+}
+
+.keys, .top {overflow: hidden;}
+
+.keys span, .top span.clear {
+	float: left;
+	position: relative;
+	top: 0;
+	cursor: pointer;
+	width: 84px;
+	height: 50px;
+	background: white;
+	border-radius: 5px;
+  border-color: white;
+	box-shadow: 0px 4px #2196F3;
+	margin: 0 7px 11px 0;
+	color: black;
+	line-height: 36px;
+	text-align: center;
+	user-select: none;
+	transition: all 0.2s ease;
+}
+
+.keys span.operator {
+	background: #2196F3;
+  box-shadow: 0px 4px white;
+	margin-right: 0;
+  color: white;
+}
+
+.keys span.eval {
+	background: #EF5350;
+	box-shadow: 0px 4px red;
+	color: white;
+}
+
+.top span.clear {
+	background: #EF5350;
+	box-shadow: 0px 4px red;
+	color: white;
+}
+
+.keys span:hover {
+	background: #BBDEFB;
+	box-shadow: 0px 4px blue;
+	color: black;
+}
+
+.keys span.eval:hover {
+	background: #EF9A9A;
+	box-shadow: 0px 4px red;
+	color: black;
+}
+
+.top span.clear:hover {
+	background: #EF9A9A;
+	box-shadow: 0px 4px red;
+	color: white;
+}
